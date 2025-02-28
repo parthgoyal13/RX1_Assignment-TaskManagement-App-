@@ -1,0 +1,27 @@
+// index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+</head>
+<body>
+    <section>
+        <h1>Add Task</h1>
+        <input type="text" placeholder="Task Title" id="taskTitle">
+        <input type="text" placeholder="Task Description" id="taskDescription">
+        <button id="addTaskBtn">Add Task</button>
+        <br/>
+
+        <h2>Remove Task</h2>
+        <input type="text" placeholder="Task ID" id="inputRemoveTaskId">
+        <button id="removeTaskBtn">Remove Task</button>
+        <br/>
+
+        <ul id="taskList"></ul>
+        <h4 id="totalTasks">Total Tasks: 0</h4>
+    </section>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
